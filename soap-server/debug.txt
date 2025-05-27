@@ -1,0 +1,61 @@
+Array
+(
+    [coord] => Array
+        (
+            [lon] => -86.0689
+            [lat] => 40.7537
+        )
+
+    [weather] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 804
+                    [main] => Clouds
+                    [description] => nubes
+                    [icon] => 04d
+                )
+
+        )
+
+    [base] => stations
+    [main] => Array
+        (
+            [temp] => 18.21
+            [feels_like] => 17.71
+            [temp_min] => 16.96
+            [temp_max] => 18.56
+            [pressure] => 1020
+            [humidity] => 62
+            [sea_level] => 1020
+            [grnd_level] => 993
+        )
+
+    [visibility] => 10000
+    [wind] => Array
+        (
+            [speed] => 5.34
+            [deg] => 72
+            [gust] => 7.31
+        )
+
+    [clouds] => Array
+        (
+            [all] => 100
+        )
+
+    [dt] => 1748358850
+    [sys] => Array
+        (
+            [type] => 2
+            [id] => 2010161
+            [country] => US
+            [sunrise] => 1748341069
+            [sunset] => 1748394328
+        )
+
+    [timezone] => -14400
+    [id] => 4924733
+    [name] => Peru
+    [cod] => 200
+)

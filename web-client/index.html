@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>BotAgroEco 🌿</title>
+    <link rel="shortcut icon" href="https://cdn.ecologiaverde.com/img/web/ecologiaverde/favicon.ico">
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(to bottom right, #e0f7e9, #ffffff);
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 90%;
+            max-width: 550px;
+            margin: 80px auto;
+            background: #ffffff;
+            padding: 35px;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+        }
+        h1 {
+            text-align: center;
+            color: #1b5e20;
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+        label {
+            font-size: 16px;
+            color: #333;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0 20px 0;
+            border: 2px solid #c8e6c9;
+            border-radius: 10px;
+            font-size: 16px;
+        }
+        input[type="submit"] {
+            background: #43a047;
+            color: white;
+            border: none;
+            padding: 14px;
+            width: 100%;
+            border-radius: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        input[type="submit"]:hover {
+            background: #388e3c;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🌾 BotAgroEco - Consulta del clima agrícola</h1>
+        <form action="consumir.php" method="POST">
+            <label for="ciudad">Ingresa tu ciudad:</label>
+            <input type="text" name="ciudad" id="ciudad" required placeholder="Ej. Lima, Santiago, La Paz...">
+            <input type="submit" value="Consultar Clima y Consejo">
+        </form>
+    </div>
+    <div class="footer">
+        © 2025 BOTAGROECO - Proyecto educativo
+    </div>
+</body>
+</html>
